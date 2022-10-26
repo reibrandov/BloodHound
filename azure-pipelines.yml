@@ -21,6 +21,6 @@ steps:
   displayName: 'npm install and build'
 
 - task: WhiteSource@21
-    inputs:
-      cwd: '$(System.DefaultWorkingDirectory)'
-      projectName: 'TestMend'
+  inputs:
+    cwd: '$(System.DefaultWorkingDirectory)'
+    projectName: 'test'
